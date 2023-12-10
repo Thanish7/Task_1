@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 200px;
+      height: 100px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+    }
+
+    .navbar li {
+      margin-left: 10px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      color: #555;
+    }
+
+    .banner {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 10px;
+    }
+
+    .card h3 {
+      color: #333;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #555;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 5px 10px;
+      border: 1px solid #333;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .card a:hover {
+      background-color: #333;
+      color: white;
+    }
+
+    .footer {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <img src="logo.png" alt="Logo" class="logo">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <img src="banner.jpg" alt="Banner" class="banner">
+    <div class="content">
+      <div class="card">
+        <h3>Full-Day City Tour</h3>
+        <p>A city rich in history and growing exponentially as a centre for the technology industry offers you eye-catching architectural beauty with a connect to its culture and heritage.</p>
+        <!--<a href="#">Book Now</a>-->
+      </div>
+      <div class="card">
+        <h3>Ramoji Film City Tour</h3>
+        <p>The famous Ramoji Film City Book of World Records as the world's largest Film Studio complex Spread across a sprawling 2000 acres, Ramoji Film City is a dream celluloid.</p>
+        <!--<a href="#">Book Now</a>-->
+      </div>
+      <div class="card">
+        <h3>Evening City Tour</h3>
+        <p>A beautiful evening tour of charming city of Hyderabad includes pilgrimage places. man-made lake and beautiful evening laser show.</p>
+        <!--<a href="#">Book Now</a>-->
+      </div>
+      <div class="card">
+        <h3>Textile Tour</h3>
+        <p>A full day guided excursion to the Weaving Village of Pochampally where one observes a of tradition, modernity culture history and of course the famous IKKAT.</p>
+        <!--<a href="#">Book Now</a>-->
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2023 Hyderabad Tour Package. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
